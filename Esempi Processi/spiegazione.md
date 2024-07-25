@@ -5,7 +5,7 @@
 
 1. **Avviare un container Docker:**
    ```bash
-docker run -it --name lab-so -v lab-esempi:/data -v "/Users/antonino/Desktop/Lab-so":/new-lab ubuntu-so
+docker run -it --name lab-esempi -v lab-esempi:/data -v "/Users/antonino/Desktop/Lab-so":/new-lab ubuntu-so
    ```
 
 2. **Verificare i container in esecuzione:**
