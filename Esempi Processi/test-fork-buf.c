@@ -25,6 +25,6 @@ int main(int argc, char * argv[])
 	 * writing directly to the file descriptor 
 	 */
 	dprintf(1, "(PID=%d) Dopo\n", getpid());
-	fork();// il figlia fa solo quello sotto la fork
+	fork();
 	dprintf(1, "(PID=%d) Dopo fork\n", getpid());
 }
